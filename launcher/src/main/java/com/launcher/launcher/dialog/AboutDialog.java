@@ -27,8 +27,7 @@ public class AboutDialog extends JDialog {
 
         container.add(new JLabel("<html>CraftersLand.net Launcher"), "wrap, gapbottom unrel");
         container.add(new JLabel("<html>This launcher is in development and bugs should NOT be reported."), "wrap, gapbottom unrel");
-        container.add(new JLabel("<html>CraftersLand.net does not currently endorse <br>" +
-                "this launcher."), "wrap, gapbottom unrel");
+        container.add(new JLabel("<html>CraftersLand.net does not currently endorse this launcher."), "wrap, gapbottom unrel");
 
         JButton okButton = new JButton("OK");
         JButton sourceCodeButton = new JButton("Launcher Thread");
