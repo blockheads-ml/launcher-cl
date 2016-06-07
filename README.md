@@ -4,6 +4,10 @@ This project is in active development.
 
 Forum thread: http://forum.craftersland.net/topic/14681-custom-launcher/
 
+THIS LAUNCHER IS NOT SUPPORT BY CRAFTERS LAND STAFF OR CURRENTLY ENDORSED
+
+DO NOT PESTER STAFF WITH ISSUES RELATED TO THIS LAUNCHER
+
 # First Release Candidate Installer 
 **-->** https://github.com/blockheads-ml/launcher-cl/raw/master/CL_Launcher_Installer.exe **<--**
 
