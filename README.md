@@ -4,4 +4,4 @@ This project is in active development.
 
 Forum thread: http://forum.craftersland.net/topic/14681-custom-launcher/
 
-First Release Candidate Binary: https://github.com/blockheads-ml/launcher-cl/raw/master/CL%20Launcher%20Installer.exe
+First Release Candidate Binary: https://github.com/blockheads-ml/launcher-cl/raw/master/CL_Launcher_Installer.exe
