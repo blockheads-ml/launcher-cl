@@ -1,0 +1,43 @@
+println """
+=================================================================
+ CRAFTERSLAND.NET LAUNCHER
+ 
+ Starting build process...
+
+ Compiled launcher will be located in launcher/build/libs...
+=================================================================
+"""
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.0'
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven'
+
+    group = 'com.launcher'
+    version = '1.0'
+
+    // sourceCompatibility = 1.7
+    // targetCompatibility = 1.7
+
+    repositories {
+        mavenCentral()
+        maven { url "http://repo.maven.apache.org/maven2" }
+    }
+
+    if (JavaVersion.current().isJava8Compatible()) {
+        // Java 8 turns on doclint which we fail
+        tasks.withType(Javadoc) {
+            options.addStringOption('Xdoclint:none', '-quiet')
+        }
+    }
+}
