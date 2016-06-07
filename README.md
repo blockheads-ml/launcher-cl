@@ -4,7 +4,7 @@ This project is in active development.
 
 Forum thread: http://forum.craftersland.net/topic/14681-custom-launcher/
 
-THIS LAUNCHER IS NOT SUPPORT BY CRAFTERS LAND STAFF OR CURRENTLY ENDORSED
+This is launcher is **NOT supported or endorsed by Crafters Land** staff, owners, moderators or other entities.
 
 DO NOT PESTER STAFF WITH ISSUES RELATED TO THIS LAUNCHER
 
