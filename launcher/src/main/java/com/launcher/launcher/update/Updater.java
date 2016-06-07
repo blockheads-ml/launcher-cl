@@ -70,9 +70,11 @@ public class Updater extends BaseUpdater implements Callable<Instance>, Progress
         boolean updateCapable = (instance.getManifestURL() != null);
 
         if (!online && updateRequired) {
-            log.info("Can't update " + instance.getTitle() + " because offline");
-            String message = SharedLocale.tr("updater.updateRequiredButOffline");
-            throw new LauncherException("Update required but currently offline", message);
+            // log.info("Can't update " + instance.getTitle() + " because offline");
+            // String message = SharedLocale.tr("updater.updateRequiredButOffline");
+            // throw new LauncherException("Update required but currently offline", message);
+			log.info("Updating " + instance.getTitle() + "...");
+            update(instance);
         }
 
         if (updateDesired && !updateCapable) {
