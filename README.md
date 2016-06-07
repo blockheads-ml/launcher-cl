@@ -1,4 +1,4 @@
-<img src="http://forum.craftersland.net/public/style_images/5_logo.png" style="width:50px;"> # CraftersLand Launcher
+<img src="http://forum.craftersland.net/public/style_images/5_logo.png" width="50"> # CraftersLand Launcher
 
 This project is in active development. 
 
