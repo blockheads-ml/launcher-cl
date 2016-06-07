@@ -1,2 +1,3 @@
-# launcher-cl
-CraftersLand Launcher
+# CraftersLand Launcher
+
+This project is in active development. 
