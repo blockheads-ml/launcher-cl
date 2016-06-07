@@ -15,3 +15,4 @@ This release candidate comes packed with the bootstrapped auto-updater. Not only
 
 ![alt tag](http://s20.postimg.org/vb98kgyjh/screenshot_6.png)
 ![alt tag](http://s20.postimg.org/ppmtgexul/screenshot_7.png)
+![alt tag](http://s20.postimg.org/bkh0elot9/screenshot_8.png)
