@@ -32,7 +32,7 @@ public class Bootstrap {
 
     public static void main(String[] args) throws Throwable {
         SimpleLogFormatter.configureGlobalLogger();
-        SharedLocale.loadBundle("com.skcraft.launcher.lang.Bootstrap", Locale.getDefault());
+        SharedLocale.loadBundle("com.launcher.launcher.lang.Bootstrap", Locale.getDefault());
 
         boolean portable = isPortableMode();
 
