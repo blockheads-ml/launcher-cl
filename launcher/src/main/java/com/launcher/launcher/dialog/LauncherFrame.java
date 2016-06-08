@@ -99,6 +99,7 @@ public class LauncherFrame extends JFrame {
 
         updateCheck.setSelected(true);
         instancesTable.setModel(instancesModel);
+        instancesTable.setRowHeight(50);
         launchButton.setFont(launchButton.getFont().deriveFont(Font.BOLD));
         splitPane.setDividerLocation(200);
         splitPane.setDividerSize(4);

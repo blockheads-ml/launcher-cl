@@ -25,12 +25,12 @@ public class AboutDialog extends JDialog {
         JPanel container = new JPanel();
         container.setLayout(new MigLayout("insets dialog"));
 
-        container.add(new JLabel("<html>CraftersLand.net Launcher"), "wrap, gapbottom unrel");
-        container.add(new JLabel("<html>This launcher is in development and bugs should NOT be reported."), "wrap, gapbottom unrel");
-        container.add(new JLabel("<html>CraftersLand.net does not currently endorse this launcher."), "wrap, gapbottom unrel");
-        container.add(new JLabel("<html>-----------------------------------"), "wrap, gapbottom unrel");
+        container.add(new JLabel("<html><center><h1>CraftersLand.net Launcher</h1></center>"), "wrap, gapbottom unrel");
+        container.add(new JLabel("<html><center>This launcher is in development and bugs should NOT be reported.</center>"), "wrap, gapbottom unrel");
+        container.add(new JLabel("<html><center>CraftersLand.net does not currently endorse this launcher.</center>"), "wrap, gapbottom unrel");
+        container.add(new JLabel("<html><center>-----------------------------------</center>"), "wrap, gapbottom unrel");
 
-        container.add(new JLabel("<html><img style='width:300px;' src=http://launcher.blockheads.ml/launcher/sig.png"), "wrap, gapbottom unrel");
+        container.add(new JLabel("<html><center><img src=http://launcher.blockheads.ml/launcher/sig.png></center>"), "wrap, gapbottom unrel");
 
         JButton okButton = new JButton("OK");
         JButton sourceCodeButton = new JButton("Launcher Forum Thread");

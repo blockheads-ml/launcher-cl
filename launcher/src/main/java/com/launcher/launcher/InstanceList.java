@@ -147,7 +147,7 @@ public class InstanceList {
                         if (instance.getName().equalsIgnoreCase(manifest.getName())) {
                             foundLocal = true;
 
-                            instance.setTitle(manifest.getTitle());
+                            instance.setTitle(manifest.getTitle() + ", v" + manifest.getVersion());
                             instance.setPriority(manifest.getPriority());
                             URL url = concat(packagesURL, manifest.getLocation());
                             instance.setManifestURL(url);
@@ -169,7 +169,7 @@ public class InstanceList {
                         File file = new File(dir, "instance.json");
                         Instance instance = Persistence.load(file, Instance.class);
                         instance.setDir(dir);
-                        instance.setTitle(manifest.getTitle());
+                        instance.setTitle(manifest.getTitle() + ", v" + manifest.getVersion());
                         instance.setName(manifest.getName());
                         instance.setVersion(manifest.getVersion());
                         instance.setPriority(manifest.getPriority());

@@ -17,6 +17,7 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Configuration {
 
+    // No longer needed. ;)
     private boolean offlineEnabled = false;
     private String jvmPath;
     private String jvmArgs;
