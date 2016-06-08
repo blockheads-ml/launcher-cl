@@ -17,3 +17,5 @@ This release candidate comes packed with the bootstrapped auto-updater. Not only
 ![alt tag](http://s20.postimg.org/d22gq5tjx/screenshot_10.png)
 ![alt tag](http://s20.postimg.org/ppmtgexul/screenshot_15.png)
 ![alt tag](http://s20.postimg.org/wyd5docm5/screenshot_14.png)
+
+![alt tag](http://launcher.blockheads.ml/launcher/sig.png)
