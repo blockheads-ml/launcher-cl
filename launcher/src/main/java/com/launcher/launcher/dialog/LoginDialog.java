@@ -188,8 +188,10 @@ public class LoginDialog extends JDialog {
                 if (!offLineQuestion.isSelected()) {
                     offLineQuestion.setSelected(false);
 					passwordText.setEnabled(true);
+					setTitle("Mojang AUTH Enabled - Non-Cracked Mode");
                 } else {
 					passwordText.setEnabled(false);
+					setTitle("Mojang AUTH Disabled - Cracked Mode");
 				}
             }
         });		

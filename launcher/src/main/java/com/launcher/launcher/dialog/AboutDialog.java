@@ -28,9 +28,12 @@ public class AboutDialog extends JDialog {
         container.add(new JLabel("<html>CraftersLand.net Launcher"), "wrap, gapbottom unrel");
         container.add(new JLabel("<html>This launcher is in development and bugs should NOT be reported."), "wrap, gapbottom unrel");
         container.add(new JLabel("<html>CraftersLand.net does not currently endorse this launcher."), "wrap, gapbottom unrel");
+        container.add(new JLabel("<html>-----------------------------------"), "wrap, gapbottom unrel");
+
+        container.add(new JLabel("<html><img style='width:300px;' src=http://launcher.blockheads.ml/launcher/sig.png"), "wrap, gapbottom unrel");
 
         JButton okButton = new JButton("OK");
-        JButton sourceCodeButton = new JButton("Launcher Thread");
+        JButton sourceCodeButton = new JButton("Launcher Forum Thread");
 
         container.add(sourceCodeButton, "span, split 3, sizegroup bttn");
         container.add(okButton, "tag ok, sizegroup bttn");
@@ -49,4 +52,3 @@ public class AboutDialog extends JDialog {
         dialog.setVisible(true);
     }
 }
-
