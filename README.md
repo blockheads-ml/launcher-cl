@@ -13,7 +13,7 @@ DO NOT PESTER STAFF WITH ISSUES RELATED TO THIS LAUNCHER
 
 This release candidate comes packed with the bootstrapped auto-updater. Not only does it auto update the mod packs, it also auto-updates the launcher itself. This is the only install you will ever need. It will automatically pull changes to the launcher, mod packs, servers and so much more.
 
-![alt tag](http://s20.postimg.org/vb98kgyjh/screenshot_6.png)
+![alt tag](http://s20.postimg.org/o22d9qlzx/screenshot_13.png)
 ![alt tag](http://s20.postimg.org/d22gq5tjx/screenshot_10.png)
-![alt tag](http://s20.postimg.org/ppmtgexul/screenshot_7.png)
-![alt tag](http://s20.postimg.org/bkh0elot9/screenshot_8.png)
+![alt tag](http://s20.postimg.org/ppmtgexul/screenshot_15.png)
+![alt tag](http://s20.postimg.org/wyd5docm5/screenshot_14.png)
