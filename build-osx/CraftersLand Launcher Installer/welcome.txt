@@ -1,0 +1,9 @@
+Welcome to the CraftersLand Launcher OS X installer. 
+
+This will install the Launcher into /Applications.
+
+You can access your mod and configs files in:
+
+Your User Home Folder/Documents/CraftersLand Launcher
+
+Have fun!
